@@ -24,6 +24,7 @@ const Navigation = ({user, dispatch}) => {
           )}
           <Link className={cx('item')} to="/dashboard">Dashboard</Link>
           <Link to="/about" className={cx('item')} activeClassName={cx('active')}>About</Link>
+          <Link to="/productList" className={cx('item')} activeClassName={cx('active')}>Product List</Link>
       </nav>
     );
 };
